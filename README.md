@@ -10,8 +10,8 @@ Download the .zip file.
 4. Connect to local host and use file path to run the application (e.g http://localhost/bbdms/index.php)
 
 ## Cloud Installation using Amazon Web Services
-1. Create a VPC
-2. Create three subnets, two public and one private
+1. Create a VPC with desired CIDR block
+2. Create at least two subnets (one public and one private) or if auto-scaling, at least three subnets (two public and one private)
 3. Public subnets routed directly to internet gateway
 4. Private subnet routed through NAT gateway to internet gateway
 5. Create private Ubuntu EC2 instance for private subnet
