@@ -113,7 +113,7 @@ $status=1;
 $bloodgroup=$_POST['bloodgroup'];
 $location=$_POST['location']; 
 
-$sql = "SELECT * from tblblooddonars where (status=:status and BloodGroup=:bloodgroup) ||  (Address=:location)";
+$sql = "SELECT * from tblblooddonars where (status=:status and BloodGroup=:bloodgroup) &&  (Address=:location)";
 $query = $dbh -> prepare($sql);
 $query->bindParam(':status',$status,PDO::PARAM_STR);
 $query->bindParam(':bloodgroup',$bloodgroup,PDO::PARAM_STR);
