@@ -15,7 +15,7 @@ Download the .zip file.
 3. Public subnets routed directly to internet gateway
 4. Private subnet routed through NAT gateway to internet gateway
 5. Create private Ubuntu EC2 instance for private subnet
-6. Copy the contents in 'ubuntu scripts/Private Server Script.docx' in User Data or use the commands stepwise in SSH client terminal 
+6. Copy the contents in 'ubuntu scripts/Private Server Script.docx' in User Data or use the commands stepwise in SSH client terminal (latter is recommended as mysql commands may not run properly)
 7. Create public Ubuntu EC2 instance for each public subnet
 6. Copy the contents in 'ubuntu scripts/Public Server Script.docx' in User Data or use the commands stepwise in SSH client terminal (Make sure to change the DB Host IP address to private IP address of private server)
 8. Using the given public IPv4 address should allow access to the web application
