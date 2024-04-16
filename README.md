@@ -1,8 +1,15 @@
 # Cloud-Hemo-Sphere-CSE472-Project
 Cloud Hemo-Sphere is an online cloud service that manages blood donation groups and aims to increase accessibility and efficiency for blood banking in Bangladesh.
 
+# Process Flow Diagram
+![Cloud](https://github.com/JoyitaF/Cloud-Hemo-Sphere-CSE472-Project/assets/115023961/0d100575-08cb-4a3b-8d7b-aa95415af871)
+
+# VPC Diagram
+![Cloud (1)](https://github.com/JoyitaF/Cloud-Hemo-Sphere-CSE472-Project/assets/115023961/f11eb366-2dc3-4c0f-ba19-693c3394b23c)
+
 # How To Run
 Download the .zip file.
+
 
 ## Local Installation using xampp and phpMyAdmin 
 1. Create a database named bbdms in phpMyAdmin and import .sql file in SQL File folder
